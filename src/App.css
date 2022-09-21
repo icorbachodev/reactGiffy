@@ -15,5 +15,21 @@
 }
 
 .App-content a {
-  color: aqua;
+  color: red;
+  text-decoration: none;
+}
+
+.App-logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.App-content ul {
+  list-style: none;
+  text-align: left;
+}
+
+.App-title {
+  margin-bottom: 0;
 }
