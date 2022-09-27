@@ -27,9 +27,17 @@ export default function Home() {
                 <input onChange={handleChange} type="text" value={keyword} placeholder="Search a gif here..." />
                 <button className="btn" type="submit">Buscar</button>
             </form>
-            <h3 className="App-title">Última búsqueda</h3>
-            <ListOfGifs gifs={gifs} />
-            <TrendingSearches />
+            <div className="App-wrapper">
+                <div className="App-main">
+                    <div className="App-results">
+                        <h3 className="App-title">Última búsqueda</h3>
+                        <ListOfGifs gifs={gifs} />
+                    </div>
+                    <div className="App-category">
+                        <TrendingSearches />
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
