@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { useLocation } from "wouter";
 import ListOfGifs from "components/ListOfGifs";
 import TrendingSearches from "components/TrendingSearches";
@@ -12,10 +12,10 @@ export default function Home() {
 
     const { gifs } = useGifs()
 
-    const handleSubmit = ({keyword}) => {
+    const handleSubmit = useCallback(({keyword}) => {
         // navegar a otra ruta
         pushLocation(`/search/${keyword}`)
-    }
+    }, [pushLocation])
     
     return (
         <>
