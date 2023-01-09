@@ -11,7 +11,7 @@ function App() {
     <StaticContext.Provider value={{ name: 'ikko', headshot: true }}>
       <div className="App">
         <section className="App-content">
-          <Link to='/'><img className='App-logo' alt='Giffy logo' src='http://www.sunimprint.com/images/Atlanta%20Falcons%20Anime%20Logo%20iron%20on%20transfers.png' /></Link>
+          <Link to='/'><img className='App-logo' alt='Giffy logo' src='https://www.keene.edu/ksc/templates/images/logos/owl.repose.png' /></Link>
           <GifsContextProvider>
             <Route path="/" component={Home} />
             <Route path='/search/:keyword' component={SearchResults} />
