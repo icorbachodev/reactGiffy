@@ -1,4 +1,4 @@
-# Creando un explorador de Gifs con React
+# Explorador de Gifs con React
 
 ## Completado:
 
