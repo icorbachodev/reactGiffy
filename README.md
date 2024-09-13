@@ -1,13 +1,13 @@
-# Explorador de Gifs con React
+# Gifs searcher with React
 
-Página de inicio: <br />
+Home: <br />
 <img src="./assets/inicio.png" /><br />
-Resultado de búsqueda:
+Search result:
 <img src="./assets/busqueda.png" />
 
-## Completado:
+## Finished:
 
-- Hooks y Context. ✅
-- Lazy Load, Suspense y paginación. ✅
-- CSS Grid, Infinite Scroll y Tests. ✅
-- Mejorar rendimiento. ✅
+- Hooks and Context. ✅
+- Lazy Load, Suspense an pagination. ✅
+- CSS Grid, Infinite Scroll and Tests. ✅
+- Performance improve. ✅
